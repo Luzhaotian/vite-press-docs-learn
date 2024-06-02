@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: '测试', link: '/test' }
     ],
 
     sidebar: [
@@ -23,6 +24,12 @@ export default defineConfig({
         text: 'Vue',
         items: [
           { text: 'Vue 笔记', link: '/vue-docs/vue' },
+        ]
+      },
+      {
+        text: 'Test',
+        items: [
+          { text: '测试', link: '/test' },
         ]
       }
     ],
